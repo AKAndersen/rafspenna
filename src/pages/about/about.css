@@ -1,0 +1,249 @@
+
+.aboutContainer{
+    width: 550px;
+    overflow: auto;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 0%;
+    right: 32%;
+    margin: auto;
+    margin-top: 6em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.329) 0px 3px 6px;
+}
+.aboutContainer h1{
+    color:rgb(0, 75, 141);
+}
+
+.aboutText{
+    width: 80%;
+    margin: 1em auto;
+}
+
+.aboutImgLeft{
+    flex: 50%;
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+    margin-right: 1em;
+
+}
+.aboutImgRight{
+    object-fit: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    margin: 3em;
+}
+
+.aboutMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.aboutMiddleText{
+    width: 100%;
+    padding: 3em;
+    text-align: center;
+    background-color: rgb(1, 137, 255);
+    margin: 0 auto;
+    margin-bottom: 3em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.aboutMiddle h2, .aboutMiddle h1{
+    text-align: center;
+    color:white;
+}
+.aboutLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutLogoPerson{
+    margin-right: 25em;
+}
+.aboutLogoPerson img{
+    margin-left: 2em;
+    
+}
+.aboutLogoCompany img{
+    margin-left: 0em;
+    margin-bottom: 1.2em;
+}
+
+.aboutLogoPerson h2, .aboutLogoCompany h2, .aboutLogoPerson h1, .aboutLogoCompany h1{
+    margin-right: 25em;
+    color: black;
+}
+
+.aboutLogoPerson, .aboutLogoCompany{
+    width: 10em;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    height: 700px;
+    margin: 5em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aboutSection{
+    margin-bottom: 2em;
+}
+.aboutImages{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutImages img{
+    margin-right: 2em;
+}
+.aboutImages h1{
+    margin-right: 4em;
+}
+.column {
+    width: 100%;
+    flex: 20%;
+    padding: 1em 7em;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: row;
+    top: 1925px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.columnText{
+    width: 800px;
+    margin: 0 auto;
+}
+.columnText h1{
+    color:rgb(0, 75, 141);
+}
+.columnWorker{
+    flex: 33.33%;
+    padding: 5px;
+    object-fit: cover;   
+}
+.columnWorker img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: 90%;      
+}
+.columnLeader{
+    flex: 33.33%;
+    padding: 5px;
+    object-fit: cover;
+    margin: 0 4em;
+}
+.columnLeader img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: 40%;   
+}
+.columnStaff{
+    flex: 33.33%;
+    padding: 5px;
+    object-fit: cover;
+    
+}
+.columnStaff img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: 20%;    
+}
+
+
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+    .aboutContainer{
+        width: 100%;
+        overflow: auto;
+        background-color: white;
+        position: absolute;
+        top: 350px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 6em;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.329) 0px 3px 6px;
+    }
+    .aboutImg{
+        object-fit: cover;
+        height: 500px;
+        width: 100%;
+        object-position: 100% 0;
+    }
+    .row{
+        width: auto;
+    }
+    .aboutMiddleText {
+        width: auto;
+    }
+    .aboutLogoPerson {
+        margin-right: 15em;
+      }
+    .aboutContainer h1{
+        margin-left: 3em;
+    }
+    .aboutContainer h2{
+        margin-left: 4.5em;
+        margin-right: 3em;
+    }
+}
+@media only screen and (max-width: 720px) {
+   .aboutMiddleText{
+   width: auto;
+   }
+   .aboutLogoPerson {
+    margin-right: 10em;
+  }
+  .columnText {
+    width: auto;
+    margin: 0 auto;
+    padding: 1.5em;
+
+  }
+  .aboutContainer{
+    width: 100%;
+    top: 370px;
+    left: 0%;
+    right: 32%;
+    box-shadow: none;
+    }
+    .aboutImgLeft{
+        display: none;
+    }
+    .aboutLogoPerson img {
+        margin-left: 2.5em;
+    }
+    .aboutLogoPerson h2, .aboutLogoCompany h2, .aboutLogoPerson h1, .aboutLogoCompany h1{
+        margin-right: 0em;
+        color: black;
+    }
+    
+    .columnWorker img {
+        object-position: 82%;
+
+    }
+    .columnStaff img {
+        object-position: 25%;
+    }
+    
+}
+
