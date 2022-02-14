@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af9ac30e.css",
+    "main.js": "/static/js/main.1b16084a.js",
+    "static/media/staff.jpg": "/static/media/staff.971a4408257304752f3e.jpg",
+    "static/media/spenna.jpg": "/static/media/spenna.a6f14ce84a5d73a8fcee.jpg",
+    "static/media/spenna2.jpg": "/static/media/spenna2.c3533912f3439833d96a.jpg",
+    "static/media/spenna4.jpg": "/static/media/spenna4.27da97cbd08ad8311592.jpg",
+    "static/media/heading-engineering.png": "/static/media/heading-engineering.c6d3820d539b6a23628b.png",
+    "static/media/handshake.jpg": "/static/media/handshake.e171549c70cfd8852f1e.jpg",
+    "static/media/plant.jpg": "/static/media/plant.9534298bfddd39a3ca2d.jpg",
+    "static/media/header.jpg": "/static/media/header.6b8b6151a0d612c4f91c.jpg",
+    "static/media/ELECTRICAL.jpg": "/static/media/ELECTRICAL.6a666a61c15a6269ac66.jpg",
+    "static/media/technical-electrical-engineer.jpg": "/static/media/technical-electrical-engineer.ed2cbf7258ebca51b66b.jpg",
+    "static/media/tenging.jpg": "/static/media/tenging.7e47ad860f12293c261b.jpg",
+    "static/media/electric.jpg": "/static/media/electric.8eb4b5969a0a09122744.jpg",
+    "static/media/HRINGDU.png": "/static/media/HRINGDU.456c6b6c18163128dc07.png",
+    "static/media/spenna3.jpeg": "/static/media/spenna3.7c1ed45c52d7b90757b2.jpeg",
+    "static/media/logo2.png": "/static/media/logo2.46d0fb73d50daf095d0f.png",
+    "static/media/engineer.jpg": "/static/media/engineer.11f3f0dd82ea740e3cf9.jpg",
+    "static/media/logo.png": "/static/media/logo.f884fc38df63f81db606.png",
+    "static/media/fyrirtæki.png": "/static/media/fyrirtæki.96e3fc0e2d9f23a2e0ae.png",
+    "static/media/karl.png": "/static/media/karl.27f4b02d3a0b7d3dd983.png",
+    "index.html": "/index.html",
+    "main.af9ac30e.css.map": "/static/css/main.af9ac30e.css.map",
+    "main.1b16084a.js.map": "/static/js/main.1b16084a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af9ac30e.css",
+    "static/js/main.1b16084a.js"
+  ]
+}
